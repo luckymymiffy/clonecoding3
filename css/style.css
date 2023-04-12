@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 100%;
+}
+html{
+    font-size: 16px;
+}
+.inner{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/***** header *****/
+
+header{
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+}
+#gnb{
+    margin: 10px 0 20px 0;
+    float: left;
+}
+#gnb img{
+    padding: 5px;
+}
+header ul{
+    float: right;
+    margin: 5px 0;
+}
+header #login li{
+    float: left;
+}
+#login{
+    font-size: 0.85rem;
+}
+header #login li a{
+    float: left;
+    color: #999E98;
+    padding: 5px;
+}
+#logo{
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+nav{
+    font-weight: bold;
+    width: 720px;
+    height: 40px;
+    margin: 0 auto;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    color: #201D1E;
+    padding:0 40px;
+}
+
+/***** section1 *****/
+
+#sec01{
+    background-image:url(../images/main_visual11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 960px;
+    height: 480px;
+    position: relative;
+    margin-bottom: 35px;
+}
+#sec01 ul{
+    width: 240px;
+    height: 140px;
+    background-color:black;
+    opacity: 0.7;
+    position: absolute;
+    top: 340px;
+    padding:35px;
+    line-height: 1.5;
+}
+#sec01 ul li::before{
+    content: "●";
+    color:#777;
+    margin-right: 5px;
+}
+#sec01 a{
+    color:#777;
+}
+#sec01 a:hover{
+    color: #FCD20A;
+}
+
+/***** section2 top *****/
+#sec02{
+    height: 430px;
+}
+#top{
+    width: 960px;
+    height: 230px;
+}
+#top_left{
+    float: left;
+    width: 240px;
+    height: 230px;
+}
+#top_center{
+    width: 480px;
+    height: 230px;
+    display: inline-block;
+    position: relative;
+}
+#top_center p{
+    padding: 8px 0 15px 0;
+    color: #6F6F6F;
+    font-size: 0.8rem;
+}
+#top_center ul li{
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding: 17px;
+    font-size: 0.97rem;
+    margin-left: 27px;
+}
+#top_center ul li:nth-child(1)::after{
+    content: url(../images/mall_bar01.gif);
+    position: absolute;
+    margin-left: 40px;
+    bottom: 50px;
+}
+#top_center ul li:nth-child(2)::after{
+    content: url(../images/mall_bar01.gif);
+    position: absolute;
+    margin-left: 40px;
+    bottom: 50px;
+}
+#top_center .img1{
+    padding-top: 30px;
+    position: absolute;
+}
+#top_right{
+    float: right;
+    width: 240px;
+    height: 230px;
+    text-align: center;
+}
+#top_right #store{
+    float: left;
+}
+
+/***** section2 middle*****/
+
+#mid_left img{
+    float: left;
+    width: 240px;
+    height: 200px;
+}
+#mid_center img{
+    float: left;
+    width: 480px;
+    height: 200px;
+}
+#mid_right img{
+    float: left;
+    width: 240px;
+    height: 200px;
+}
+
+/***** section2  *****/
+#sec03{
+    height: 180px;
+}
+#academy,#recruit,#news,#etc{
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-top: 30px;
+    font-size: 0.78rem;
+}
+#academy #recruit,#button{
+    width: 70px;
+    height: 25px;
+    background-color: #808080;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 3.5px;
+}
+#news #etc, a{
+    color: #6F6F6F;
+}
+#academy p,#recruit p{
+    padding: 15px 0;
+    color: #6F6F6F;
+}
+#news #date{
+    margin-top: 15px;
+}
+#news span{
+    padding-left: 25px;
+}
+#etc{
+    width: 240px;
+    padding-left: 20px;
+    position: relative;
+}
+#etc .a{
+    float: left;
+    margin:20px 0 0 10px;
+    text-align: center; 
+}
+#etc img{
+    padding-bottom: 10px;
+}
+.bar{
+    position: absolute;
+    bottom: 20px;
+}
+
+/***** footer *****/
+
+footer{
+    background-image: url(../images/bg_footer.gif);
+    height: 180px;
+}
+footer ul li{
+    float: left;
+    border-right: 1px solid #CD5959;
+    padding:0 10px;
+}
+footer ul li a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+footer ul li:first-child{
+    padding-left: 0;
+}
+footer ul li:last-child{
+    border-right: none;
+}
+footer p{
+    float: left;
+    color: #e9c5d0;
+    font-size: 0.75rem;
+    margin-top: 30px;
+}
+footer #fot_text{
+    padding-top: 40px;
+}
